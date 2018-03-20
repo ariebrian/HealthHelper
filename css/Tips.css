@@ -1,0 +1,102 @@
+body{
+	padding-top: 40px;
+}
+
+.Grid{
+	display: grid;
+	grid-template-columns: 4% 20% 4% 20% 5% 20% 4% 20% 4%;
+	grid-template-rows : 300px 20px 300px;
+}
+
+.Grid div{
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+
+}
+.Grid p{
+	position: relative;
+	right: 10px;
+	left:10px;
+}
+
+
+.tips-1 {
+  border-radius:10px;
+  background: #b03532;
+  grid-column: 2;
+  grid-row: 1;
+
+}
+.tips-2 {
+  border-radius:10px;
+  background: #33a8a5;
+  grid-column: 4;
+  grid-row: 1;
+}
+.tips-3 {
+  border-radius:10px;
+  background: #30997a;
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.tips-4 {
+  border-radius:10px;
+  background: #30997a;
+  grid-column: 8;
+  grid-row: 1;
+}
+
+.tips-5 {
+  border-radius:10px;
+  background: #30997a;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.tips-6 {
+  border-radius:10px;
+  background: #30997a;
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.tips-7 {
+  border-radius:10px;
+  background: #30997a;
+  grid-column: 6;
+  grid-row: 3;
+}
+
+.tips-8 {
+  border-radius:10px;
+  background: #30997a;
+  grid-column: 8;
+  grid-row: 3;
+}
+
+.pagin a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+.previous {
+	height: 50px;
+	width: 100px;
+	margin: 20px;
+    background-color: #3b3a30;
+    color: white;
+    float: left;
+}
+
+.next {
+	height: 50px;
+	width: 100px;
+	margin: 20px;
+    background-color: #3b3a30;
+    color: white;
+    float: right;
+}
